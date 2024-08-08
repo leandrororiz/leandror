@@ -1,0 +1,125 @@
+#img {
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 200px;
+}
+
+#logoinferior img {
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#mundo,
+#logoinferior {
+  color: red;
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+}
+
+#home {
+  margin-left: 100px;
+
+}
+
+#home2,
+#home3,
+#home4 {
+  margin-left: 20px;
+  color: white;
+}
+
+#home5 {
+
+  border: black 1px solid;
+  color: black;
+}
+
+#home51 {
+  margin-left: 60%;
+  margin-right: 20px;
+}
+
+#home6 {
+  border: red 1px solid;
+  color: red;
+ 
+}
+
+#home7 {
+  border: black 1px solid;
+  color: black;
+  margin-left: 20px;
+
+}
+
+body {
+  background-color: black;
+}
+
+h2 {
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card-body {
+  background-color: #343a40;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 1px;
+  border-radius: 4%;
+}
+
+footer {
+
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trailers {
+  margin-left: 14%;
+  margin-top: 20px;
+}
+
+.categorias {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+
+.tit-categorias {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  color: red;
+}
